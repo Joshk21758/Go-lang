@@ -10,7 +10,9 @@ func main(){
 		"Cow": 52,
 		
 	}
-	mp["Chick"] = b
+	mp["Chick"] = 21
+	mp["Egg"] = 20
+	mp["Marble"] = 50
 	delete(mp, "Cat")
 	fmt.Println("This is a map", mp)
 
